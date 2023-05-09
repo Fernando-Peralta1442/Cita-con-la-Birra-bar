@@ -1,4 +1,4 @@
-{
+*{
     padding: 0%;
     margin: 0%;
 }
@@ -6,9 +6,11 @@
 
 /* -------------------------------INDEX------------------------------------------------ */
 body {
-    background: #8E0E00;
-    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
-    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    background: #333333;  
+background: -webkit-linear-gradient(to right, #dd1818, #333333);
+background: linear-gradient(to right, #dd1818, #333333); 
+
+
 }
 
 .nav-link {
@@ -32,22 +34,30 @@ body {
 
 
 .card-body {
-    background-color: rosybrown;
+    color: white;
+    background-color: rgb(39, 58, 133);
 }
 
-.btn {
+.btn.card {
     background-color: orange;
     border: solid black 5px;
+
 }
 
+
 .foto_1 {
-    border: solid black 10px;
+    border: solid black 5px;
     border-radius: 15px;
 }
 
 .foto_2 {
-    border: solid black 10px;
+    border: solid black 5px;
     border-radius: 15px;
+}
+
+.foto_3{
+    height: 450px;
+ border: solid white;
 }
 
 h1 {
@@ -57,15 +67,28 @@ h1 {
     color: white;
 }
 
-p {
-    color: white;
-}
-
-h3 {
-
+h2{
+    border-radius: 5px;
+    border: solid white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
 }
+
+h3{
+    
+    border: solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+p {
+    color: white;
+    font-style: italic;
+}
+
 
 
 h4 {
@@ -81,16 +104,12 @@ form {
 /* ...............................QUIENES SOMOS----------------------------- */
 .foto-3 {
 
-    border: solid black 10px;
+    border: solid black 5px;
     border-radius: 15px;
+    height: 600px;
 
 }
 
-.section__quienes-somos{
-    border: black;
-    display: flex;
-    justify-content: center;
-}
 
 .parrafo-presentacion{
     
@@ -118,4 +137,17 @@ form {
 .section__event{
     display: flex;
     justify-content: end;
+}
+
+.card-body{
+    border: solid black 5px;
+}
+
+.btn-info{
+    background-color: rgb(140, 252, 247);
+}
+
+.cards-secundarias{
+    margin-top: 10px;
+
 }
