@@ -76,10 +76,10 @@ h2{
 
 h3{
     
-    border: solid white;
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
-    margin-top: 10px;
+    margin-top: 45px;
 }
 
 
@@ -87,6 +87,7 @@ h3{
 p {
     color: white;
     font-style: italic;
+    font-size: 1.3rem;
 }
 
 
@@ -150,4 +151,20 @@ form {
 .cards-secundarias{
     margin-top: 10px;
 
+}
+
+.text-eventos{
+    display: flex;
+
+}
+ .iframe__vid2{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid white;
+    margin-top: 25px;}
+
+.form-reservas{
+    
+    color: white;
 }
