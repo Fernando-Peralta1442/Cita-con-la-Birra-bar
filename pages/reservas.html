@@ -5,157 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/style.css">
     <title>Reservas</title>
-    <!------------------- Bootstrap---------------- -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
 </head>
 
 <body>
-    <main>
 
 
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html">Reservas</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/pages/quienes-somos.html">Quienes Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/pages/eventos.html">Eventos</a>
-    
-                            <li class="nav-item">
-                                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/index.html">Home</a>
-                            </li>
-                        </ul>
-                    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">Reservas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/quienes-somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/eventos.html">Eventos</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
 
 
 
 
         <section>
-            <h2 class="titulo-principal">Reserva tu lugar para tus celebraciones</h2>
+            <h1 class="display-3 animate__animated animate__rubberBand">Reserva tu lugar para tus celebraciones</h1>
             <article>
-                <p class="parrafo-presentacion">
-                    Festeja con nosotros todos tus eventos , desde tu cumpleaños y hasta una reunion laboral. <br>
+                <p class="parrafo-presentacion text-justify">
+                    Festeja con nosotros todos tus eventos , desde tu cumpleaños y hasta una reunion laboral. 
                     Siempre con la mejor atencion y la disponibilidad de nuestros mejores espacios para tu disfrute y el
-                    de tus invitados. <br>
+                    de tus invitados. 
                     Hace tu reserva con tiempo y veni a disfrutar con nosotros.
                 </p>
-                <p class="parrafo-presentacion">
-                    Festeja con nosotros todos tus eventos , desde tu cumpleaños y hasta una reunion laboral. <br>
-                    Siempre con la mejor atencion y la disponibilidad de nuestros mejores espacios para tu disfrute y el
-                    de tus invitados. <br>
-                    Hace tu reserva con tiempo y veni a disfrutar con nosotros.
-                </p>
+                
                 <figure>
-                    <img src="/images/reservas-proyect.jpg" alt=" Fiesta realizada en nuestras instalaciones">
+                    <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-3">
+                        <img src="../images/reservas-proyect.jpg" class=" foto_5 img-fluid"
+                            alt="festejo de cumpleaños" />
+                    </div>
                 </figure>
             </article>
         </section>
 
-<div class="container">
-    <form class="row">
-        <div class="col-6 text-center">
-            <label for="nombre-usuario" class="form-label">Tu Nombre</label>
-            <input type="text" class="form-control" id="nombre-usuario" placeholder="Escribe tu correo">
-        </div>
-    </form>
-    <form class="row">
-        <div class="col-6 text-center">
-            <label for="apellido-usuario" class="form-label">Tu Apellido</label>
-            <input type="text" class="form-control" id="apellido-usuario" placeholder="Apellido">
-        </div>
-    </form>
-    <form class="row">
-        <div class="col-6 text-center">
-            <label for="emailinput" class="form-label">Tu correo electronico</label>
-            <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu correo">
-        </div>
-    </form>
-    <form class="row">
-        <div class="col-6 text-center">
-            <label for="telefono-usuario" class="form-label">Tu Numero de telefono</label>
-            <input type="tel" class="form-control" id="telefono-usuario" placeholder="Numero de telefono">
-        </div>
-    </form>
-    
-        </div>
-    </form>
+        <h2>Reserva tu espacio</h2>
 
-    <div class="form-reservas container  form-check">
-        <input class="form-check-input" type="checkbox" value="" id="2personas">
-        <label class="form-check-label" for="2personas">
-          2 Personas
-        </label>
-      </div>
-      <div class="form-reservas container  form-check">
-        <input class="form-check-input" type="checkbox" value="" id="4personas">
-        <label class="form-check-label" for="4personas">
-       4 Personas
-        </label>
-      </div>
-    
-
-</div>
-
- <!--  
-        <section>
-            <h3>Reserva tu espacio</h3>
-            <form>
-                <div>
-                    <label for="nombre-usuario">Nombre</label>
-                    <input id="nombre-usuario" type="text">
-                </div>
-                <div>
-                    <label for="apellido-usuario">Apellido</label>
-                    <input id="apellido-usuario" type="text">
-                </div>
-                <div>
-                    <label for="correo-electronico"> Email</label>
-                    <input id="correo-electronico" type="email">
-                </div>
-                <div>
-                    <label for="telefono">Numero de telefono</label>
-                    <input id="telefono" type="tel">
-                </div>
-                <div>
-                    <span>Selecciona el numero de personas:</span>
-                    <label for="cuatro-personas">4 personas</label>
-                    <input id="cuatro-personas" type="radio" name="radio-personas">
-
-                    <label for="seis-personas">6 personas</label>
-                    <input id="seis-personas" type="radio" name="radio-personas">
-
-                    <label for="ocho-personas">8 personas</label>
-                    <input id="ocho-personas" type="radio" name="radio-personas">
-
-                    <label for="doce-personas">12 personas</label>
-                    <input id="doce-personas" type="radio" name="radio-personas">
-                </div>
-
-                <div>
-                    <label for="evento-realizar"> Evento a realizar</label>
-                    <textarea name="" id="evento-realizar" cols="30" rows="10"></textarea>
-                    <input type="submit">
+        <div class="container">
+            <form class="row">
+                <div class="col-6 text-center">
+                    <label for="nombre-usuario" class="form-label">Tu Nombre</label>
+                    <input type="text" class="form-control" id="nombre-usuario" placeholder="Escribe tu correo">
                 </div>
             </form>
-        </section>
--->
+            <form class="row">
+                <div class="col-6 text-center">
+                    <label for="apellido-usuario" class="form-label">Tu Apellido</label>
+                    <input type="text" class="form-control" id="apellido-usuario" placeholder="Apellido">
+                </div>
+            </form>
+            <form class="row">
+                <div class="col-6 text-center">
+                    <label for="emailinput" class="form-label">Tu correo electronico</label>
+                    <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu correo">
+                </div>
+            </form>
+            <form class="row">
+                <div class="col-6 text-center">
+                    <label for="telefono-usuario" class="form-label">Tu Numero de telefono</label>
+                    <input type="tel" class="form-control" id="telefono-usuario" placeholder="Numero de telefono">
+                </div>
+            </form>
+
+        </div>
+        </form>
+
+       
+        </div>
+
+
+        </div>
+
+       
         <div>
             <h4>Recordatorio para reservar</h4>
             <p class="text-justify">

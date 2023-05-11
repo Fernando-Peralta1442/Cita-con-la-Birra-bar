@@ -65,6 +65,7 @@ h1 {
     border: solid white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    margin:right 10px ;
 }
 
 h2{
@@ -168,3 +169,11 @@ form {
     
     color: white;
 }
+
+.foto_5{
+    border: solid black 5px;
+    border-radius: 15px;
+    height: 500px;
+
+}
+
