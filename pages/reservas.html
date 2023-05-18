@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No te quedes sin tu lugar , adquiri promociones por tu reservas atraves de nuestra web">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <!-- animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/style.css">
-    <title>Reservas</title>
+    <title>Reservas | no te quedes sin tu lugar hace tu reserva</title>
 
 </head>
 
 <body>
 
 
-
+<!-- barra de navegacion -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -47,70 +48,77 @@
         </nav>
     </header>
 
+    <!-- texto descripcion de las reservas -->
+
     <main class="container">
-
-
-
-
         <section>
             <h1 class="display-3 animate__animated animate__rubberBand">Reserva tu lugar para tus celebraciones</h1>
             <article>
                 <p class="parrafo-presentacion text-justify">
-                    Festeja con nosotros todos tus eventos , desde tu cumpleaños y hasta una reunion laboral. 
+                    Festeja con nosotros todos tus eventos , desde tu cumpleaños y hasta una reunion laboral.
                     Siempre con la mejor atencion y la disponibilidad de nuestros mejores espacios para tu disfrute y el
-                    de tus invitados. 
+                    de tus invitados.
                     Hace tu reserva con tiempo y veni a disfrutar con nosotros.
+                    Podes escoger el menu a degustar , la bebida y el postre dejandonos un mensaje, a cualquier hora
+                    cualquier dia, nos ponemos en contacto con vos y te organizamos todo..¡¡ No lo pienses mas y veni a
+                    conocernos.
                 </p>
-                
+
                 <figure>
-                    <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-3">
+                    <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9 mt-3 animate__animated animate__bounceInLeft">
                         <img src="../images/reservas-proyect.jpg" class=" foto_5 img-fluid"
                             alt="festejo de cumpleaños" />
                     </div>
                 </figure>
             </article>
         </section>
+        <!-- formulario para reservar -->
 
-        <h2>Reserva tu espacio</h2>
+        <section>
+            <h2>Reserva tu espacio</h2>
+            <div class="container">
+                <form class="row">
+                    <div class="col-6 text-center">
+                        <label for="nombre-usuario" class="form-label">Tu Nombre</label>
+                        <input type="text" class="form-control" id="nombre-usuario" placeholder="Tu nombre">
+                    </div>
+                </form>
+                <form class="row">
+                    <div class="col-6 text-center">
+                        <label for="apellido-usuario" class="form-label">Tu Apellido</label>
+                        <input type="text" class="form-control" id="apellido-usuario" placeholder="Apellido">
+                    </div>
+                </form>
+                <form class="row">
+                    <div class="col-6 text-center">
+                        <label for="emailinput" class="form-label">Tu correo electronico</label>
+                        <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu correo">
+                    </div>
+                </form>
+                <form class="row">
+                    <div class="col-6 text-center">
+                        <label for="telefono-usuario" class="form-label">Tu Numero de telefono</label>
+                        <input type="tel" class="form-control" id="telefono-usuario" placeholder="Numero de telefono">
+                    </div>
+                </form>
+                <div class="row align-items-center animate__animated animate__backInUp">
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+                        <form>
+                            <h3>Evento a realizar</h3>
+                            
+                            <div class="mb-2">
+                                <label for="event" class="form-label">Describi tu evento y numero de personas</label>
+                                <textarea class="form-control" id="event" rows="7"></textarea>
+                            </div>
+                            <input type="submit" placeholder="Enviar consulta">
+                        </form>
+                    </div>
+            </div>
 
-        <div class="container">
-            <form class="row">
-                <div class="col-6 text-center">
-                    <label for="nombre-usuario" class="form-label">Tu Nombre</label>
-                    <input type="text" class="form-control" id="nombre-usuario" placeholder="Escribe tu correo">
-                </div>
-            </form>
-            <form class="row">
-                <div class="col-6 text-center">
-                    <label for="apellido-usuario" class="form-label">Tu Apellido</label>
-                    <input type="text" class="form-control" id="apellido-usuario" placeholder="Apellido">
-                </div>
-            </form>
-            <form class="row">
-                <div class="col-6 text-center">
-                    <label for="emailinput" class="form-label">Tu correo electronico</label>
-                    <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu correo">
-                </div>
-            </form>
-            <form class="row">
-                <div class="col-6 text-center">
-                    <label for="telefono-usuario" class="form-label">Tu Numero de telefono</label>
-                    <input type="tel" class="form-control" id="telefono-usuario" placeholder="Numero de telefono">
-                </div>
-            </form>
+        </section>
 
-        </div>
-        </form>
-
-       
-        </div>
-
-
-        </div>
-
-       
         <div>
-            <h4>Recordatorio para reservar</h4>
+            <h4 class="subtitle-reservas">Recordatorio para reservar</h4>
             <p class="text-justify">
                 Recorda, que siempre las reservas se deben hacer con 7 dias de antelacion y detallar el menu a escoger
                 para
@@ -121,7 +129,7 @@
 
     </main>
 
-
+    <!-- footer -->
     <div class="row">
         <footer class="py-3 my-4">
             <h4>Seguinos en nuestras redes sociales</h4>

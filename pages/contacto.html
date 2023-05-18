@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="te dejamos nuestro contacto, respondemos tus consultas a la brevedad">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
@@ -15,6 +17,7 @@
 </head>
 
 <body>
+    <!-- barra de navegacion -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -26,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/quienes-somos.html">Quienes Somos</a>
+                            <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/eventos.html">Eventos</a>
@@ -44,55 +47,89 @@
     </header>
 
 
-    </header>
-    <main>
+
+    <main class="container">
+
+        <!-- descripcion de contacto -->
         <section>
-           
- <article>
-    <p class="parrafo-presentacion">
-        Encontranos en todas nuestras <a href="#redes-sociales">redes sociales</a> , Facebook ,Instagram y
-        Twitter.
-        O dejanos tus consultas aqui, responderemos tus dudas al instante. <br>
-        Tambien podes contactarnos mediante mje de whattsap. <br>
-    </p>
-</article>
+            <div class="container my-3">
+                <div class="row animate__animated animate__rubberBand">
+                    <h1 class="display-3">Conocenos</h1>
+                    <p class="text-justify">
+                        Encontranos en todas nuestras redes sociales , Facebook ,Instagram y
+                        Twitter.
+                        O dejanos tus consultas aqui, responderemos tus dudas al instante. <br>
+                        Tambien podes contactarnos mediante mje de whattsap.Nuestros colaboradores se pondran en
+                        contacto con vos al instante, y te van asesorar de nuestros espacios , productos, bebidas y
+                        eventos.
+                        No te pierdas de nuestros descuentos exclusivos y sorpresas que tenemos preparadas para vos y
+                        tus acompañantes.
+                        Dale, veni.. ¡¡
+                    </p>
+                </div>
+                <ul>
+                    <li>whattsap: 0351-153576942 <a href="https://web.whatsapp.com/" target="_blank">Iniciar chat</a>
+                    </li>
+                </ul>
 
-            <ul>
-                <li>whattsap: 0351-153576942 <a href="https://web.whatsapp.com/" target="_blank">Iniciar chat</a></li>
-            </ul>
+                <!-- formulario de contacto -->
 
+                <section>
+                    <h2>Reserva tu espacio</h2>
+                    <div class="container">
+                        <form class="row">
+                            <div class="col-6 text-center">
+                                <label for="nombre-usuario" class="form-label">Tu Nombre</label>
+                                <input type="text" class="form-control" id="nombre-usuario" placeholder="Tu nombre">
+                            </div>
+                        </form>
+                        <form class="row">
+                            <div class="col-6 text-center">
+                                <label for="apellido-usuario" class="form-label">Tu Apellido</label>
+                                <input type="text" class="form-control" id="apellido-usuario" placeholder="Apellido">
+                            </div>
+                        </form>
+                        <form class="row">
+                            <div class="col-6 text-center">
+                                <label for="emailinput" class="form-label">Tu correo electronico</label>
+                                <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu correo">
+                            </div>
+                        </form>
+                        <form class="row">
+                            <div class="col-6 text-center">
+                                <label for="telefono-usuario" class="form-label">Tu Numero de telefono</label>
+                                <input type="tel" class="form-control" id="telefono-usuario" placeholder="Numero de telefono">
+                            </div>
+                        </form>
+                        <div class="row align-items-center animate__animated animate__backInUp">
+                            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+                                <form>
+                                    <h3>Evento a realizar</h3>
+                                    
+                                    <div class="mb-2">
+                                        <label for="event" class="form-label">Describi tu evento y numero de personas</label>
+                                        <textarea class="form-control" id="event" rows="7"></textarea>
+                                    </div>
+                                    <input type="submit" placeholder="Enviar consulta">
+                                </form>
+                            </div>
+                    </div>
+        
+                </section>
+        
+                <div>
+                    <h4 class="subtitle-reservas">Recordatorio para reservar</h4>
+                    <p class="text-justify">
+                        Recorda, que siempre las reservas se deben hacer con 7 dias de antelacion y detallar el menu a escoger
+                        para
+                        el evento. <br>
+                    </p>
+                </div>
+        
 
-            <h3 class="titulo-contacto">Dejanos tus consultas</h3>
-            <form>
-                <div>
-                    <label for="nombre-usuario">Nombre</label>
-                    <input id="nombre-usuario" type="text">
-                </div>
-                <div>
-                    <label for="apellido-usuario">Apellido</label>
-                    <input id="apellido-usuario" type="text">
-                </div>
-                <div>
-                    <label for="correo-electronico"> Email</label>
-                    <input id="correo-electronico" type="email">
-                </div>
-                <div>
-                    <label for="telefono">Numero de telefono</label>
-                    <input id="telefono" type="tel">
-                </div>
-                <div>
-                    <label for="consulta"> Tu consulta</label>
-                    <textarea id="consulta" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" placeholder="Enviar consulta">
-                    <input type="reset">
-                </div>
-            </form>
-        </section>
+        <!-- ubicacion de bar -->
 
-
-        <section>
+        <section class="row align-items-center animate__animated animate__bounceInRight">
             <h3 class="titulo-3">Donde encontrarnos</h3>
             <article>
                 <p class="parrafo-presentacion">
@@ -100,7 +137,8 @@
                     proporciona una vista privilegiada para el deleite de nuestros visitantes. <br>
                     Nuestra direccion es Marcelo T. de Alvear esquina Boulevard San juan. Te esperamos.
                 </p>
-                <figure class="mapa-1">
+                <div></div>
+                <figure class="align-items-center">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.793502312744!2d-64.19247658526929!3d-31.419814981402926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a286bba9fd5b%3A0x906642ec74141670!2sAv.%20Marcelo%20T.%20de%20Alvear%20%26%20Blvd.%20San%20Juan%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1679176980148!5m2!1ses-419!2sar"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -111,7 +149,7 @@
 
     </main>
 
-
+    <!-- footer -->
 
     <div class="row">
         <footer class="py-3 my-4">

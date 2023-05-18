@@ -1,0 +1,153 @@
+* {
+    padding: 0%, margin 0%;
+
+    body {
+        background: #333333;
+        background: -webkit-linear-gradient(to right, #dd1818, #333333);
+        background: linear-gradient(to right, #dd1818, #333333);
+    }
+
+    .nav-link {
+        font-weight: 600;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .card:hover {
+        opacity: 0.7;
+    }
+
+    .card-text {
+        text-align: justify;
+        color: black;
+    }
+
+    .card-body {
+        color: white;
+        background-color: rgb(39, 58, 133);
+    }
+
+    .btn.card {
+        background-color: orange;
+        border: solid black 5px;
+    }
+
+    .foto_1 {
+        border: solid black 5px;
+        border-radius: 15px;
+    }
+
+    .foto_2 {
+        border: solid black 5px;
+        border-radius: 15px;
+    }
+
+    .foto_3 {
+        height: 450px;
+        border: solid white;
+    }
+
+    h1 {
+        border: solid white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        margin-right: 10px;
+    }
+
+    h2 {
+        border-radius: 5px;
+        border: solid white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+    }
+
+    h3 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        margin-top: 45px;
+    }
+
+    p {
+        color: white;
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        color: white;
+    }
+
+    .foto-3 {
+        border: solid black 5px;
+        border-radius: 15px;
+        height: 600px;
+    }
+
+    .parrafo-presentacion {
+        align-content: flex-end;
+    }
+
+    .figcaption__event {
+        color: white;
+    }
+
+    .iframe__vid1 {
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        border: solid white;
+    }
+
+    .section__event {
+        display: flex;
+        justify-content: end;
+    }
+
+    .card-body {
+        border: solid black 5px;
+    }
+
+    .btn-info {
+        background-color: rgb(140, 252, 247);
+    }
+
+    .cards-secundarias {
+        margin-top: 10px;
+    }
+
+    .text-eventos {
+        display: flex;
+    }
+
+    .iframe__vid2 {
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        border: solid white;
+        margin-top: 25px;
+    }
+
+    .form-reservas {
+        color: white;
+    }
+
+    .foto_5 {
+        border: solid black 5px;
+        border-radius: 15px;
+        height: 500px;
+    }
+
+    .subtitle-reservas {
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+
+}
